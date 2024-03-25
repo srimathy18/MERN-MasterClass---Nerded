@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Management</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="customerForm">
+    <input type="text" id="customerName" placeholder="Customer Name" required>
+    <input type="text" id="contactInfo" placeholder="Contact Information" required>
+    <select id="membershipType" required>
+      <option value="">Select Membership Type</option>
+      <option value="basic">Basic</option>
+      <option value="premium">Premium</option>
+    </select>
+    <button type="button" id="addCustomerBtn">Add Customer</button>
+    <button type="button" id="deleteCustomerBtn">Delete Customer</button>
+  </form>
+  <ul id="customerList"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
